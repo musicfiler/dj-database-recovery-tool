@@ -18,6 +18,12 @@ Ein leistungsstarkes, in Python geschriebenes Desktop-Werkzeug zur Verwaltung, K
 
 ## Installation & Einrichtung
 
+### Windows:
+Ganz einfach die MSI Datei herunterladen, installieren und in den installationsordner einen Ordner mit der Bezeichnung mp3val erstellen und die mp3val.exe von https://mp3val.sourceforge.net herunterladen und hineinkopieren.
+Das tool hat auch eine GUI, falls man mal nur defekte dateien finden möchte, das tool ist wirklich ein must have.
+
+### Andere Plattformen mit Python:
+
 1. **Repository klonen oder herunterladen:**
    ```bash
    git clone [https://github.com/dein-benutzername/dj-database-tool.git](https://github.com/dein-benutzername/dj-database-tool.git)
@@ -52,9 +58,6 @@ Kopiere die mp3val.exe in diesen Ordner (./mp3val/mp3val.exe).
 Um das Tool ohne Python-Installation auf anderen Windows-Computern auszuführen, kann es mit PyInstaller als ausführbare Datei gepackt werden:
 
 Die fertige .exe befindet sich anschließend im Ordner dist/.
-
-Oder ganz einfach die MSI Datei herunterladen, installieren und in den installationsordner einen Ordner mit der Bezeichnung mp3val erstellen und die mp3val.exe von https://mp3val.sourceforge.net herunterladen und hineinkopieren.
-Das tool hat auch eine GUI, falls man mal nur defekte dateien finden möchte, das tool ist wirklich ein must have.
 
    ```bash
     pyinstaller --noconfirm --windowed --add-data "mp3val;mp3val" --collect-data tkinterdnd2 dj_library_advanced.py
