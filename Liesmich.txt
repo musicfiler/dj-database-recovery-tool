@@ -1,0 +1,13 @@
+DJ Database Tool - Installationshinweise
+
+Das Programm ist sofort einsatzbereit.
+Um zusätzlich die erweiterte Reparatur- und Prüffunktion für beschädigte MPEG-Header nutzen zu können, wird das kostenlose Kommandozeilen-Tool "MP3val" benötigt. Aus lizenzrechtlichen Gründen ist dieses nicht im Download enthalten.
+
+So aktivierst du die MP3val-Funktion:
+1. Gehe auf die offizielle Webseite: http://mp3val.sourceforge.net/
+2. Lade dir die aktuelle Version für Windows herunter (z.B. mp3val-0.1.8-bin-win32.zip).
+3. Entpacke die .zip-Datei.
+4. Kopiere die Datei "mp3val.exe".
+5. Erstelle in dem Ordner, in dem dieses Programm liegt, einen neuen Ordner namens "mp3val".
+6. Füge die "mp3val.exe" in diesen Ordner ein.
+7. Starte das DJ Database Tool neu. Die entsprechenden Buttons sind nun klickbar.
