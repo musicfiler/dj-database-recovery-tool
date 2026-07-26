@@ -54,5 +54,5 @@ Um das Tool ohne Python-Installation auf anderen Windows-Computern auszuführen,
 Die fertige .exe befindet sich anschließend im Ordner dist/.
 
    ```bash
-    pyinstaller --noconfirm --windowed --add-data "mp3val;mp3val" --collect-data tkinterdnd2 dj_recovery_tool.py
+    pyinstaller --noconfirm --windowed --add-data "mp3val;mp3val" --collect-data tkinterdnd2 dj_library_advanced.py
 
