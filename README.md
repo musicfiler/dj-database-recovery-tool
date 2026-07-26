@@ -46,7 +46,7 @@ Kopiere die mp3val.exe in diesen Ordner (./mp3val/mp3val.exe).
 
 5. **Anwendung starten**
    ```bash
-    python dj_recovery_tool.py
+    python dj_library_advanced.py
    
 ### Als .exe kompilieren (Standalone)
 Um das Tool ohne Python-Installation auf anderen Windows-Computern auszuführen, kann es mit PyInstaller als ausführbare Datei gepackt werden:
